@@ -1,6 +1,7 @@
 ul{
     overflow: hidden;
     background-color: rgb(204, 205, 206);
+    font-size-adjust: 0.5em;
 }
 li{
     float: left;
@@ -13,8 +14,21 @@ li a{
     color: black;
 }
 .main{
+    margin-top: 200px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: red;
 }
+form{
+    background: brown;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+
+}
+
