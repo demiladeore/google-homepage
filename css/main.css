@@ -28,7 +28,11 @@ form{
 }
 .btn{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 20px;
 
+}
+button{
+    background: whitesmoke;
 }
 
