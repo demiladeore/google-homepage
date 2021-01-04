@@ -10,6 +10,7 @@ li a{
     padding: 5px;
     text-decoration: none;
     display: block;
+    color: black;
 }
 .main{
     display: flex;
