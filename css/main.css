@@ -1,10 +1,14 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5F6368;
+}
 ul{
     overflow: hidden;
-    background-color: rgb(204, 205, 206);
     font-size-adjust: 0.5em;
 }
 li{
     float: left;
+    
     
 }
 li a{
@@ -12,19 +16,26 @@ li a{
     text-decoration: none;
     display: block;
     color: black;
+    font-size: 13px;
 }
 .main{
     margin-top: 200px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: red;
+    background:;
 }
 form{
-    background: brown;
+    background: ;
     display: flex;
     flex-direction: column;
     /* justify-content: flex-end; */
+}
+input[type="text"]{
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    height: 36px;
+    margin-top: 20px;
 }
 .btn{
     display: flex;
@@ -32,7 +43,20 @@ form{
     margin-top: 20px;
 
 }
-button{
-    background: whitesmoke;
+button[type="submit"]{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 0px 16px;
+    height: 36px;
+    color: #5F6368;
+    border-radius: 3px;
+}
+button[type="submit"]:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
 
